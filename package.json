@@ -1,0 +1,32 @@
+{
+  "name": "a",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.3.11",
+    "@mirror-protocol/mirror.js": "^1.1.6",
+    "@nivo/core": "^0.67.0",
+    "@nivo/line": "^0.67.0",
+    "@terra-money/terra.js": "^1.6.0",
+    "date-fns": "^2.19.0",
+    "graphql": "^15.5.0",
+    "next": "10.0.8",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.3",
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.7",
+    "prettier": "^2.2.1",
+    "tailwindcss": "^2.0.3"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}
